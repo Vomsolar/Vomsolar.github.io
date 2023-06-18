@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a7ccad3506.js" crossorigin="anonymous"></script>
+
+  <title>VOM Energy</title>
+  <!-- <link rel="stylesheet" href="/assets/index-9e38f8f8.css"> -->
+</head>
+
+<body id="home">
+  <!-- ---------------------------------------------------------------------------------------------------------------- -->
+  <div class="container">
+
+    <!--================================================================================================================  Testingg ================================================================================================================ -->
+    <main class="bg-no-repeat bg-cover h-[50vh] text-white lg:h-[100vh] lg:bg-cover lg:text-xl overflow-hidden">
+      <section class="md:h-screen">
+        <!-- <div class="container mx-auto px-10">test</div> -->
+        <div class="relative">
+          <ul id="slider">
+            <li class="h-[50vh] relative md:h-screen">
+              <img class="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c29sYXIlMjBwYW5uZWwlMjBzeXN0ZW18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                loading="lazy"
+                />
+              <div class="absolute top-0 h-full w-full flex">
+                <h2 class="text-4xl font-bold text-white w-full my-auto text-center px-20-10">
+                  <p class="text-5xl ">Lets make <br> your Electrcity bill </p>
+                  <span class="text-yellow-300">
+                    <i class="fa-solid fa-indian-rupee-sign"> 0</i>
+                  </span>
+                </h2>
+              </div>
+            </li>
+            <li class="h-[50vh] relative hidden md:h-[100vh]">
+              <img class="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1629726797843-618688139f5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNvbGFyJTIwcGFubmVsJTIwc3lzdGVtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                loading="lazy"
+                />
+              <div class="absolute top-0 h-full w-full flex">
+                <h2 class="text-4xl font-bold text-white w-full my-auto text-center px-20-10">
+                  <p class="text-green-400">Get your free Electricity</p>
+                  <p class="text-sm text-green-400 font-semibold">#आपकी अपनी बिजली</p>
+                </h2>
+              </div>
+            </li>
+            <li class="h-[50vh] relative hidden md:h-[100vh]">
+              <img class="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c29sYXIlMjBwYW5lbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                loading="lazy" 
+                />
+              <div class="absolute top-0 h-full w-full flex">
+                <h2 class="text-5xl font-bold text-white w-full my-auto text-center px-20-10">
+                  <p class="text-yellow-400">GO SOLAR</p>
+                  <p class="text-green-600">GO GREEN</p>
+                </h2>
+              </div>
+            </li>
+          </ul>
+          <div class="absolute px-3 flex h-full w-full top-0 left-0">
+            <div class="my-auto w-full flex justify-between">
+              <button class="bg-white p-3 rounded-full opacity-50 shadow-lg text-black" onclick="prev()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                </svg>
+              </button>
+              <button class="bg-white p-3 rounded-full opacity-50 shadow-lg text-black" onclick="next()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--================================================================================================================  Testingg ================================================================================================================ -->
+      <div class="navbar fixed backdrop-blur-md top-0 w-full lg:px-36">
+        <nav class="flex z-10 items-center justify-between p-2">
+          <div class="flex z-10">
+            <div>
+              <div class="logo text-green-400 font-bold lg:mr-10">
+                VOM ENERGY
+              </div>
+              <div class="md:hidden absolute text-xs left-12 lg:left-12">आपकी अपनी बिजली</div>
+            </div>
+            <div class="hidden md:block">
+              <ul class="flex flex-row">
+                <li class="px-4">
+                  <a href="#home" class="text-lg"> Home</a>
+                </li>
+                <li class="px-4">
+                  <a href="#about" class="text-lg"> About</a>
+                </li>
+                <li class="px-4">
+                  <a href="#contact" class="text-lg"> Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="mx-2 flex">
+            <button class=" free-electrcity mx-4 p-2 border text-green-400 border-white rounded-xl hover:bg-green-500 hover:text-white hover:scale-105">
+              #आपकी अपनी बिजली
+            </button>
+            <div class="flex">
+              <div href="" class="m-2 cursor-pointer md:hidden" onclick="nav()">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <!-- Nav Bar Slider -->
+              <div id="bars" class="routes px-4 md:hidden right-0 absolute hidden flex-col h-screen bg-green-400 top-0">
+                <div onclick="nav()" class="flex cross">
+                  <div class="m-2 mx-4 p-2 cursor-pointer md:hidden absolute top-0 right-0">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+                <ul class="px-8 relative top-10">
+                  <li class="px-4 py-2 flex items-center justify-center">
+                    <a href="#" class="text-lg"> Home</a>
+                  </li>
+                  <li class="px-4 py-2 flex items-center justify-center">
+                    <a href="#about" class="text-lg"> About</a>
+                  </li>
+                  <li class="px-4 py-2 flex items-center justify-center">
+                    <a href="#contact" class="text-lg"> Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- <div class="tag-line my-48 text-4xl px-3 font-semibold lg:my-96 lg:text-6xl lg:px-36">
+        <h2>
+          Generate your own <br /><span class="text-green-400">free electrcity !</span>
+        </h2>
+      </div> -->
+    </main>
+
+    <section id="contact" class="bg p-4 lg:flex lg:justify-center lg:gap-5 lg:px-36 lg:py-5">
+      <!-- 
+          ============================================================================================================================================
+                                                                  Enquiry Submission 
+          ============================================================================================================================================
+         -->
+      <div class="flex lg:items-center items-center justify-center ">
+        <div id="pop" class=" justify-center ">
+          <h2 class="font-semibold text-white text-[2rem] lg:font-bold lg:text-5xl  ">
+            Submit an Enquiry For Solar Project now !
+          </h2>
+          <p class="font-thin text-white lg:text-2xl">
+            We will Contact you for further discussion.
+          </p>
+        </div>
+      </div>
+      <!-- 
+          ============================================================================================================================================
+                                                                  Form Div
+          ============================================================================================================================================
+         -->
+      <div
+        class="form shadow-2xl rounded-lg flex flex-col justify-center text-center items-center bg-white  shadow-gray-400 p-4 my-5 lg:py-12">
+        <form class="form p-2 flex flex-col justify-center items-center" action="https://formspree.io/f/xdovqdnw" method="POST">
+          <div class="lg:flex lg:gap-5">
+            <input class="border-green-300 border rounded-lg p-4 px-12 my-2 " type="text" name="firstName"
+              placeholder="First Name" required />
+            <input class="border-green-300 border rounded-lg p-4 px-12 my-2" type="text" name="lastName"
+              placeholder="Last name" required />
+          </div>
+          <div class="lg:flex lg:gap-5">
+            <input class="border-green-300 border rounded-lg p-4 px-12 my-2" type="email" name="email"
+              placeholder="Youremail@gmail.com" />
+            <input class="border-green-300 border rounded-lg p-4 px-12 my-2 list-none " type="numeric" name="entry.1166974658"
+              placeholder="+91 8573022224" />
+          </div>
+          <div class="lg:flex lg:gap-5">
+            <input
+              class="border-green-300 border flex justify-center items-center rounded-lg p-4 px-12 lg:px-[12.5rem] my-2"
+              type="text" name="unit" placeholder="Units per Month" />
+          </div>
+          <button type="submit" class="bg-secondary rounded-lg p-4 e px-32 my-2" id="sub">
+            Submit
+          </button>
+
+        </form>
+      </div>
+    </section>
+    <section class="p-4 lg:py-12 bg-gray-100">
+      <div class="">
+        <div class="text-xl text-center font-bold text-slate-900 my-4">
+          How Solar works ?
+          <div class="my-4 relative h-0 overflow-hidden pb-[56.25%]   md:pb-[30.25%] md:h-32 md:flex md:justify-center "
+            >
+            <iframe class=" shadow-2xl shadow-gray-400  md:flex rounded-md absolute top-0 left-0 w-[100%] h-[100%] md:w-[60%] md:justify-center md:left-[20%] "
+              loading="lazy"
+              src="https://www.youtube-nocookie.com/embed/xJgrDYNwdHU?loop=1&autoplay=1&fs=0&controls=0&modestbranding=1">
+            </iframe>
+          </div>
+        </div>
+    </section>
+    <div id="about" class="FAQS md:flex md:justify-around p-4 lg:py-12">
+
+
+      <section class="">
+        <section class="img-content  floating">
+          <div class="image ">
+            <img class=""
+              src="https://www.adanisolar.com/-/media/Project/AdaniSolar/Home/Solutions/rooftop/Rooftop.png?h=352&la=en&w=523&hash=385C056303E76870E6D9FECF4A825560 "
+              alt="Solar pannel on fields"
+              loading="lazy"
+              />
+          </div>
+        </section>
+      </section>
+      <section  class="FAQS">
+        <div>
+          <section class="text-gray-700">
+            <div class="container px-5 py-6 mx-auto">
+              <div class="text-center mb-2">
+                <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+                  Frequently Asked Question
+                </h1>
+                <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                  The most common questions about how our business works and what
+                  can do for you.
+                </p>
+              </div>
+              <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                <div class="w-full lg:w-1/2 px-4 py-2">
+                  <details class=" mb-4">
+                    <summary class="font-semibold list-none bg-gray-200 rounded-md py-2 px-4">
+                      What type of Solar Systems we can install ?
+                    </summary>
+
+                    <span class="">
+                      <p class="px-4">
+                        We cater all types of customers ranging from Domestic, Commercial as well as Industrial.
+                        We also care about our farmers, so we have variety of solar pumps as well.
+                        For more info <a href="#contact" class="text-black font-thin">Click here</a>.
+                      </p>
+                    </span>
+                  </details>
+                  <details class="mb-4">
+                    <summary class="font-semibold list-none bg-gray-200 rounded-md py-2 px-4">
+                      How many types of solar systems are there?
+                    </summary>
+
+                    <span>
+                      <p class="px-4">
+                        We have a specialised team of engineers who will configure your load consumption. According to your need we will design a system for you.
+                        <br>In general we have two types of systems - On Grid and Off Grid.
+                      </p>
+                    </span>
+                  </details>
+                  <details class="">
+                    <summary class="font-semibold list-none bg-gray-200 rounded-md py-2 px-4">
+                      What is On Grid System ?
+                    </summary>
+
+                    <span class="">
+                      <p class="px-4">
+                        An On grid system works with the power grid of your city.
+                        It can borrow as well as send electrcity via special net metering system that will be installed in your house by city discom.
+                      </p>
+                    </span>
+                  </details>
+                </div>
+                <div class="w-full lg:w-1/2 px-4 py-2">
+                  <details class="mb-4">
+                    <summary class="font-semibold list-none  bg-gray-200 rounded-md py-2 px-4">
+                      What is Off Grid System ?
+                    </summary>
+
+                    <span class="">
+                      <p class="px-4">
+                        Off Grid systems have batteries with them and it can upto an extent where your house will generate its electrcity for both day and night and you can remove your electrcity connection as well.
+                      </p>
+                    </span>
+                  </details>
+                  <details class="mb-4">
+                    <summary class="font-semibold list-none bg-gray-200 rounded-md py-2 px-4">
+                      Where do we work?
+                    </summary>
+
+                    <span class="">
+                      <p class="px-4">
+                        We are currently availble in North India region.
+                        States like - UP, Delhi, Punjab, etc.
+                      </p>
+                    </span>
+                  </details>
+                  <details class="mb-4">
+                    <summary class="font-semibold list-none bg-gray-200 rounded-md py-2 px-4">
+                      How can I communicate with you?
+                    </summary>
+
+                    <span class="">
+                      <p class="px-4">
+                        Fill the contact form and our team will respond within hours.
+                        Or You can directly call us on <br> +91 8573022224.
+                      </p>
+                    </span>
+                  </details>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+    </div>
+    <section class="bg p-4">
+
+      <section class="container text-center justify-center p-4 bg">
+        <div class=" text-2xl py-4 items-center text-white ">
+          Follow us on
+          <div class="font-bold text-3xl my-1 text-white ">
+            Social Media
+          </div>
+        </div>
+        <div class="Socials my-1 flex justify-center space-x-8">
+          <div class="bg-white cursor-pointer hover:bg-green-500 hover:transition hover:-translate-y-1 delay-75 hover:shadow-md hover:text-white rounded-full">
+            <i class="p-4 text-3xl fa-brands fa-instagram">
+            </i>
+          </div>
+          <div class="bg-white cursor-pointer hover:bg-green-500 hover:shadow-md hover:-translate-y-1 delay-75 hover:text-white rounded-full">
+            <i class="p-4 text-3xl fa-brands fa-facebook"></i>
+          </div>
+          <div class="bg-white  cursor-pointer hover:bg-green-500 hover:shadow-md hover:-translate-y-1 delay-75 hover:text-white rounded-full">
+            <i class="p-4 text-3xl fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </section>
+      <section class=" flex justify-between md:text-2xl md:mx-8 ">
+        <div class=" text-lime-50  ">
+          <h1 class="text-xl"> 
+            Quick Links
+          </h1>
+          <h1 class=""><a href="#home">Home</a></h1>
+          <h1><a href="#contact">Contact</a></h1>
+          <h1><a href="#faqs">FAQs</a></h1>
+
+        </div>
+        <div class=" text-lime-50">
+          <h1 class="font-bold text-lg md:text-xl"><a href="">VOM ENERGY</a></h1>
+          <h1 class="space-x-1">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="">vom@gmail.com</a></h1>
+          <h1>
+            <i class="fa-solid fa-phone"></i>
+            <a href="">+91 85730222224</a></h1>
+        </div>
+      </section>
+      <div class=" mt-2 text-center font-thin text-lime-50">
+        © All Rights Reserved @VOM ENERGY Pvt. Ltd.
+      </div>
+    </section>
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
